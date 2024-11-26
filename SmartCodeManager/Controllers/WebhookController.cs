@@ -3,7 +3,7 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace SmartCodeManager.Controllers
 {
-    [Route("api/[controller]")]
+    [Route("[controller]")]
     [ApiController]
     public class WebhookController : ControllerBase
     {
